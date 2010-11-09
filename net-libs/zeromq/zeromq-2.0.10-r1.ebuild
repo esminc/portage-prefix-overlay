@@ -22,7 +22,7 @@ KEYWORDS="~x64-macos"
 IUSE="pgm static-libs"
 
 RDEPEND="
-	!x64-macos? ( sys-apps/util-linux )
+	kernel_linux? ( sys-apps/util-linux )
 "
 DEPEND="${RDEPEND}
 	pgm? (
